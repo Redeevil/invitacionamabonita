@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda Interfaz</title>
+    <!-- Importación de la fuente Poppins Black desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #daeaf6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            color: #4d4d4d;
+        }
+        .rectangle {
+            background-color: #ddedea;
+            padding: 20px;
+            border-radius: 20px;
+            width: 90%;
+            max-width: 400px;
+            margin: 0 auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .balloon {
+            width: 80%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .banner-text {
+            font-size: 1.5em;
+            color: #fff;
+            background-color: #ff8a80;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            display: inline-block;
+        }
+        .names {
+            font-size: 2em;
+            color: #e74c3c;
+            margin-top: 20px;
+        }
+        .date-location {
+            font-size: 1em;
+            color: #7f8c8d;
+            margin-top: 10px;
+        }
+        .location {
+            color: #e74c3c;
+        }
+        .button {
+            background-color: #ff8a80;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 30px;
+            font-size: 1em;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #e57373;
+        }
+    </style>
+</head>
+<body>
+    <div class="rectangle">
+        <div class="banner-text">¡Te invito a nuestra primera!</div>
+        <img src="8325419.png" alt="Globo Aerostático" class="balloon">
+        <div class="banner-text">¡Videollamada!</div>
+        <div class="names">Luis Angel & Amelia</div>
+        <div class="date-location">
+            <div>30, 31 de agosto, 1 de septiembre, 2024</div>
+            <div class="location">Plataformas: Discord/Zoom <br>Hora a tratar, favor de confirmar asistencia <br>¡No faltes!</div>
+        </div>
+        <button class="button" onclick="location.href='brocoli.html'">Leer más...</button>
+    </div>
+</body>
+</html>
